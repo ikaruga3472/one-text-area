@@ -14,7 +14,7 @@ if (textarea && countNoSpace && countWithSpace && countToken) {
     countWithSpace.textContent = String(value.length)
     // gemma 토큰 계산
     const tokensLength: number = getTokenSize(value)
-    countToken.textContent = tokensLength > 1 ? String(tokensLength) : '-'
+    countToken.textContent = tokensLength > 0 ? String(tokensLength) : '-'
   }
 
   textarea.addEventListener('input', () => {
