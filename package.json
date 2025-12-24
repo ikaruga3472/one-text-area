@@ -13,6 +13,8 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "@lenml/tokenizer-gemma3": "^3.7.2",
+    "@lenml/tokenizers": "^3.7.2",
     "@tailwindcss/vite": "^4.1.18",
     "tailwindcss": "^4.1.18"
   }
